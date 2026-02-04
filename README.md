@@ -1,91 +1,90 @@
-HypeDrop Streetwear 🚀
+<div align="center">
 
-Plataforma de moda urbana otimizada para "drops" exclusivos.
+<h1>🚀 HypeDrop Streetwear</h1>
 
-Este projeto é uma aplicação Frontend desenvolvida em React com um visual "Dark Mode" moderno, animações fluidas e foco total na experiência do usuário (UX).
+<p>
+<strong>Plataforma de moda urbana otimizada para "drops" exclusivos.</strong>
+</p>
 
-O sistema foi arquitetado para funcionar perfeitamente no GitHub Pages (hospedagem estática), utilizando uma lógica de "Backend Mockado" que permite testar todas as funcionalidades — incluindo um painel administrativo completo — sem a necessidade de um servidor ou banco de dados real.
+<p>
+<a href="#-demonstração-online">Demonstração</a> •
+<a href="#-funcionalidades-principais">Funcionalidades</a> •
+<a href="#-acesso-ao-painel-administrativo">Admin</a> •
+<a href="#-como-rodar-localmente">Instalação</a>
+</p>
+
+</div>
+
+<br />
+
+Este projeto é uma aplicação Frontend desenvolvida com um visual "Dark Mode" moderno, animações fluidas e foco total na experiência do usuário (UX).
+
+O sistema foi arquitetado para funcionar perfeitamente no GitHub Pages, utilizando uma lógica de "Backend Mockado" que permite testar todas as funcionalidades — incluindo um painel administrativo completo — sem a necessidade de um servidor real.
 
 🔗 Demonstração Online
 
-Acesse o HypeDrop aqui
-(Nota: Substitua o link acima pelo link final gerado pelo seu GitHub Pages se for diferente)
+👉 Acesse o HypeDrop aqui
+
+Nota: Substitua o link acima pelo link final do seu repositório se for diferente.
 
 🔑 Acesso ao Painel Administrativo
 
-O sistema possui um CMS (Painel de Controle) embutido no frontend. Através dele, você pode criar, editar e excluir produtos em todas as abas (Loja, Drops e Cofre).
+O sistema possui um CMS (Painel de Controle) embutido. Para acessar, clique no ícone de Cadeado (🔒) na barra de navegação.
 
-Para acessar, clique no ícone de Cadeado (🔒) na barra de navegação (ou no menu lateral, se estiver no celular).
+🛡️ Credencial
 
-Credencial
+🔐 Credenciais de painel administrativo
+Login: adm1
+Senha: 1234
 
-Valor
+⚠️ Atenção: Como este é um site estático, as alterações feitas no painel são salvas apenas na memória temporária do seu navegador. Se você recarregar a página (F5), os dados voltarão ao estado original.
 
-Login
+✨ Funcionalidades Principais:
 
-adm1
+🛍️ Experiência de Compra
 
-Senha
+[x] Loja Interativa: Filtros estilo "Stories" e Badges de raridade (Mítico, Lendário).
+[x] Busca Preditiva: Resultados instantâneos enquanto digita.
+[x] Carrinho Inteligente: Gestão de estado em tempo real.
 
-1234
+🔥 Gamification & Hype
 
-⚠️ Importante: Como este é um site de demonstração estático, as alterações feitas no painel administrativo são salvas na memória temporária do seu navegador. Se você recarregar a página (F5), os dados voltarão ao estado original.
+[x] Calendário de Drops: Timeline visual de lançamentos futuros.
+[x] The Vault (Cofre): Galeria de itens exclusivos/esgotados.
+[x] Caixa Misteriosa: Mecânica de "Gacha" com animações de suspense.
 
-✨ Funcionalidades Principais
+⚙️ Painel Admin (CMS)
 
-🛍️ Loja Interativa:
+[x] CRUD Completo: Criar, Editar e Excluir produtos.
 
-Filtros de categoria estilo "Instagram Stories".
+[x] Gestão Global: Controle sobre Loja, Drops e Cofre em um só lugar.
 
-Badges de raridade (Comum, Raro, Épico, Lendário, Mítico).
-
-Busca preditiva com resultados instantâneos.
-
-📅 Calendário de Drops: Linha do tempo visual mostrando os próximos lançamentos para gerar hype.
-
-🔒 The Vault (Cofre): Uma galeria de itens "esgotados" e lendários para criar senso de exclusividade.
-
-📦 Caixa Misteriosa: Uma mecânica de "gacha" (sorteio) onde o usuário pode gastar créditos para ganhar um item aleatório com animação de suspense.
-
-⚙️ Dashboard Admin Completo:
-
-Gerenciamento (CRUD) de Produtos da Loja.
-
-Gerenciamento de Datas e Drops Futuros.
-
-Gerenciamento de Itens do Cofre.
-
-📱 Mobile First: Design totalmente responsivo, com menu lateral (drawer), gestos de toque e layout adaptativo.
-
-🎨 UI/UX Premium: Design System com cores Neon (Roxo/Rosa/Laranja), efeito Glassmorphism (vidro fosco), contagem regressiva e animações suaves.
+[x] Modal Dinâmico: Formulários adaptativos para cada tipo de item.
 
 🛠️ Tecnologias Utilizadas
 
-React.js: Biblioteca principal para construção da interface.
+Este projeto foi construído com as melhores ferramentas do ecossistema moderno:
 
-Vite: Ferramenta de build de última geração (substitui o Create React App).
-
-Tailwind CSS: Framework de CSS utilitário para estilização rápida e responsiva.
-
-Lucide React: Biblioteca de ícones vetoriais leves e modernos.
+React.js - Biblioteca de UI
+Vite - Build Tool ultra-rápida
+Tailwind CSS - Estilização Utility-First
+Lucide React - Ícones Vetoriais
+GitHub Pages - Hospedagem Estática
 
 🚀 Como Rodar Localmente
 
-Se você quiser baixar e modificar este projeto no seu computador:
+Siga os passos abaixo para testar em sua máquina:
 
-Clone o repositório:
+# 1. Clone o repositório
+git clone [[https://github.com/clara-cecilia/nexus-store.git](https://github.com/clara-cecilia/Streetwear/)
 
-git clone [https://github.com/clara-cecilia/nexus-store.git](https://github.com/clara-cecilia/nexus-store.git)
-cd nexus-store
+# 2. Entre na pasta
+cd Streetwear
 
-
-Instale as dependências:
-
+# 3. Instale as dependências
 npm install
 
-
-Rode o servidor de desenvolvimento:
-
+# 4. Inicie o servidor
 npm run dev
 
 
@@ -93,9 +92,11 @@ Acesse http://localhost:5173 no seu navegador.
 
 📦 Deploy
 
-Este projeto está configurado para deploy automático via gh-pages. Para atualizar a versão online:
+Para atualizar a versão online no GitHub Pages:
 
 npm run deploy
 
 
-Desenvolvido com 💜 React e muita criatividade.
+<div align="center">
+Desenvolvido com 💜 e React
+</div>
